@@ -11,9 +11,9 @@
 
 function owlpediachild_enqueue_scripts() {
     wp_enqueue_style(
-        'owlpediachild-style',
+        'owlpedia-child-style',
         get_stylesheet_uri(),
-        array( 'twentytwentyone-style' ), 
+        array( 'twenty-twenty-one-style' ), 
         wp_get_theme()->get('Version') // this only works if you have Version in the style header
     );
 }
