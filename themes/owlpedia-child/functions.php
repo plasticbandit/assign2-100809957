@@ -19,10 +19,3 @@ function owlpediachild_enqueue_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'owlpediachild_enqueue_scripts' );
-
-
-// function owlpediachild_add_stylesheet() {
-//     wp_enqueue_style( 'owlpedia-style', get_stylesheet_directory_uri() . '/style.css', false, '1.0', 'all' );
-// }
-
-// add_action( 'wp_enqueue_scripts', 'owlpediachild_add_stylesheet' );
